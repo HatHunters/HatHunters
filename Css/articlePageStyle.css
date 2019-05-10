@@ -1,0 +1,118 @@
+#header {
+	background-color: #b0def2;
+	margin: 5px;
+	width: 75%;
+	margin-left: 12.5%;
+	padding-top: 4px;
+	box-sizing: border-box;
+}
+
+#header img {
+	width: 40%;
+	margin-left: 30%;
+}
+#nav {
+	margin: 5px;
+	box-sizing: border-box;
+}
+
+#nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #b0def2;
+	width: 100%;
+}
+
+#nav li {
+    float: left;
+		width: 50%;
+}
+
+.active {background-color: #56c7f0;}
+
+#nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+	padding: 5px 0;
+    text-decoration: none;
+}
+
+#nav li a:hover {
+    background-color: #56c7f0;
+	font-weight: bold;
+}
+
+#articles{
+	width: 75%;
+	margin-left: 12.5%;
+	margin-right: 5px;
+	border-spacing: 10px;
+}
+
+#articles th {
+	text-align: left;
+	font-size: 28pt;
+}
+
+#articles td {background-color: #ccffcc;}
+
+#articles td:hover {
+	background-color: #b3ffb3;
+}
+
+#articles td {
+	width:25%;
+	vertical-align: top;
+}
+
+#articles a {
+	text-decoration: none;
+	color: black;
+}
+
+#articles h2 {
+	text-align: left;
+	padding: 0 10px 0 10px;
+}
+
+#articles p {
+	text-align: left;
+	padding: 0 10px 0 10px;
+}
+
+#articles img {
+	width: 101%;
+	margin: -1px;
+}
+
+#footer {
+	background-color: #b0def2;
+	box-sizing: border-box;
+	margin: 5px;
+	padding: 10px;
+	text-align: center;
+}
+
+@media screen and (max-width: 1920px) {
+	#nav {font-size: 20pt; width:75%; margin-left:12.5%;}
+	#header {width:75%; margin-left:12.5%;}
+	#articles {font-size: 12pt; width: 75%; margin-left:12.5%;}
+	#footer {width:75%; margin-left:12.5%;}
+}
+
+@media screen and (max-width: 1280px) {
+	#nav {font-size: 16pt; width:80%; margin-left:10%;}
+	#header {width:80%; margin-left:10%;}
+	#articles {font-size:11pt; width:80%; margin-left:10%;}
+	#footer {width:80%; margin-left:10%;}
+}
+
+@media screen and (max-width: 768px) {
+	#nav {font-size: 14pt; width:100%; margin-left:0;}
+	#header {width:100%; margin-left:0;}
+	#articles {width: 100%; margin-left: 0;}
+	#footer {width:100%; margin-left:0%;}
+}
