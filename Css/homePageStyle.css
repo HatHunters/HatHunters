@@ -114,8 +114,9 @@
 }
 
 #articles img {
-	width: 101%;
-	margin: -1px;
+	float: center;
+	width: 60%;
+	margin: 10px;
 }
 
 #footer {
