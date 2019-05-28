@@ -58,10 +58,12 @@
 }
 
 #feature img{
-	float: left;
-	width: 70%;
+	float: center;
+	width: 50%;
 	margin: 0;
 	padding: 20px;
+	margin-left: 50px;
+	align-self: center;
 }
 
 #feature tr {background-color: #ccffcc;}
